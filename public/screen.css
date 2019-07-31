@@ -9,4 +9,57 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #03a9c0;
+}
+
+#container {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+}
+
+#container #header {
+  border: 5px solid pink;
+  width: 50%;
+  justify-content: center;
+}
+
+#header h1 {
+  text-align: center;
+}
+
+#navigation {
+  display: flex;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.navbar {
+  display: flex;
+  border: 5px solid black;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: gray;
+}
+.footer ul {
+  display: flex;
+  border: 5px solid black;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contentbox {
+  display: flex;
+  width: 100%;
+  border: 5px solid black;
 }
