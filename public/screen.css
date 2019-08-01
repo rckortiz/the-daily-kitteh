@@ -14,7 +14,7 @@ body {
 
 #container {
   display: flex;
-  background-color: lightblue;
+  background-color: rgb(223, 236, 240);
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -49,7 +49,7 @@ body {
 .footer {
   display: flex;
   width: 100%;
-  background-color: gray;
+  background-color: rgb(168, 164, 164);
   margin: auto;
 }
 .footer ul {
@@ -65,4 +65,8 @@ body {
   display: flex;
   width: 100%;
   margin: auto;
+}
+
+.contentbox ul {
+  border: 1px solid blue;
 }
