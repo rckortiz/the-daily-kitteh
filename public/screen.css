@@ -19,10 +19,10 @@ body {
   align-items: center;
   flex-direction: column;
   width: 70%;
+  margin: auto;
 }
 
 #container #header {
-  border: 5px solid pink;
   width: 50%;
   justify-content: center;
 }
@@ -39,27 +39,30 @@ body {
 
 .navbar {
   display: flex;
-  border: 5px solid black;
-  width: 100%;
+  width: 90%;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto;
+  list-style: none;
 }
 
 .footer {
   display: flex;
   width: 100%;
   background-color: gray;
+  margin: auto;
 }
 .footer ul {
   display: flex;
-  border: 5px solid black;
-  width: 100%;
   flex-direction: row;
+  width: 100%;
   justify-content: space-evenly;
+  margin: auto;
+  list-style: none;
 }
 
 .contentbox {
   display: flex;
   width: 100%;
-  border: 5px solid black;
+  margin: auto;
 }
